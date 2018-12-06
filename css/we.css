@@ -1,0 +1,29 @@
+.nav-tabs.nav-justified > li > a{
+	font-size:18px;
+	color:#777;
+}
+
+
+.icon{
+	margin-top:50px;
+}
+
+.icon a{
+	display:inline-block;
+}
+
+.icon a:nth-child(4){
+	margin-top:70px;
+	margin-left:93px;
+}
+
+.icon a:nth-child(5){
+	margin-top:35px;
+	margin-left:-8px;
+}
+
+.icon a:nth-child(6){
+	margin-top:70px;
+	margin-left:122px;
+}
+
