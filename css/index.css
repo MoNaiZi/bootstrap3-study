@@ -10,6 +10,7 @@ header{
 
 .navbar{
 	border:none !important;
+	z-index: 1000;
 }
 
 .container-fluid{
@@ -20,7 +21,7 @@ header{
 	float:left;
 }
 
-/*µç»°*/
+/*ï¿½ç»°*/
 .nav-tall{
 	background:url("../images/index_08.png") no-repeat;
 	height:47px;
@@ -30,7 +31,7 @@ header{
 }
 
 
-/*Í·²¿×Ö*/
+/*Í·ï¿½ï¿½ï¿½ï¿½*/
 .navbar-nav{
 	margin-top:-20px;
 }
@@ -81,7 +82,7 @@ header{
 
 
 
-/*ÂÖ²¥Í¼*/
+/*ï¿½Ö²ï¿½Í¼*/
 
 #banner img{
 	max-width:100%;
@@ -93,44 +94,35 @@ header{
 	height:500px;
 	background:#ffffff;
 }
-#demo .row{
-	margin-top:180px;
-}
 
-#demo2 .warp,
-#demo .row .warp{
-	text-align:center;
-	margin-top:-140px;
+#demo .warp{
+	text-align: center;
 }
 
 #demo2 .warp h4,
-#demo .row .warp h4{
+#demo  .warp h4{
 	color:#b6b6b6;
 }
 #demo a{
 	display:inline-block;
-	width:200px;
-
 }
 
 @media screen and (max-width: 600px){
 	#demo a{
-	margin-top:-10px;
-	margin-left:60px;
+	/*margin-top:-10px;*/
+	/*margin-left:60px;*/
 	}
 	
 }
 
 @media screen and (max-width: 520px){
 	#demo a{
-			margin-top:0;
-			margin-left:0;
-			width:160px;
+			width:50%;
 	}
 	
 }
 
-@media screen and (min-width: 300px,max-width: 370px;){
+@media screen and (min-width: 300px,max-width:370px;){
 	#demo a{
 		width:160px;
 	}
@@ -167,7 +159,7 @@ header{
 	margin-top:50px;
 }
 
-/*²åÈëÍ¼Æ¬*/
+/*ï¿½ï¿½ï¿½ï¿½Í¼Æ¬*/
 #demo1 .item1-son{
 	background:#fff url("../images/index_25.png") no-repeat 50% 20%;
 }
@@ -264,9 +256,6 @@ header{
 	margin-top:26px;
 }
 
-#demo2{
-
-}
 #demo2 img{
 	width:50%;
 	height:50%;
@@ -276,6 +265,7 @@ header{
 
 #demo2 .warp{
 	margin-top:0;
+	text-align: center;
 }
  
 #demo3{
@@ -284,16 +274,9 @@ header{
 	background:#eff4f7;
 }
 
-#demo3 .warp{
-	width:800px;
-	margin:0 auto;
-	position:relative;
-	top:50px;
-}
 
-#demo3 .warp img{
-	float:left;
-	margin-top:84px;
+#demo3  img{
+	width:100%;
 }
 
 #demo3 .warp h3{
